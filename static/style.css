@@ -1,0 +1,42 @@
+:root {
+  --card_width: 90px;
+  --card_height: 90px;
+}
+
+body {
+  background: #2c4e63;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameboard {
+  margin-top: 200px;
+  height: 700px;
+  width: 700px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.memory-card {
+  width: var(--card_width);
+  height: var(--card_height);
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  margin: 5px;
+}
+
+.memory-card img {
+  width: var(--card_width);
+  height: var(--card_height);
+}
+
+.hidden {
+  display: none;
+}
